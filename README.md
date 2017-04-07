@@ -1,24 +1,13 @@
-# README
+# three.js Experiment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Practice making use of three.js in a Rails application. Work in progress.
 
-Things you may want to cover:
+Current issue:
+three.js library not being compiled. Currently added as
+```//= require three```
+in app/assets/javascript/application.js
 
-* Ruby version
+Attempted standard inclusion, as well as using threejs-rails gem in Gemfile.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Error:
+THREE is not defined in console when server is initialized.
